@@ -28,6 +28,7 @@ DEBUG = False
 
 # <HINT> add your cloud host here
 ALLOWED_HOSTS = [
+    'localhost',
     'course-quiz.eu-de.mybluemix.net'
 ]
 
