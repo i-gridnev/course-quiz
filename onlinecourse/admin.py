@@ -15,11 +15,6 @@ class QuestionInline(admin.StackedInline):
     extra = 3
 
 
-class ChoiceInline(admin.StackedInline):
-    model = Choice
-    extra = 4
-
-
 class ChoiceAdmin(admin.ModelAdmin):
     list_display = ('choice_text', 'is_correct')
 
