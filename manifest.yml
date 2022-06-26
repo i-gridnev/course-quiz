@@ -1,11 +1,11 @@
   applications:
   - name: onlinecourse
     routes:
-      - route: host.domain
+      - route: course-quiz.eu-de.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
     routes:
-      - route: host.domain/static
-    memory: 128M
+      - route: course-quiz.eu-de.mybluemix.net/static
+    memory: 64M
     buildpack: staticfile_buildpack
